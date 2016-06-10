@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C53503C11CB2049E001201CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C53503C01CB2049E001201CF /* main.m */; };
+		C53503C41CB2049E001201CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C53503C31CB2049E001201CF /* AppDelegate.m */; };
+		C53503C71CB2049E001201CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53503C61CB2049E001201CF /* ViewController.m */; };
+		C53503CA1CB2049E001201CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53503C81CB2049E001201CF /* Main.storyboard */; };
+		C53503CC1CB2049E001201CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53503CB1CB2049E001201CF /* Assets.xcassets */; };
+		C53503CF1CB2049E001201CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53503CD1CB2049E001201CF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C53503BC1CB2049E001201CF /* UIDatePicker的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIDatePicker的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53503C01CB2049E001201CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C53503C21CB2049E001201CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C53503C31CB2049E001201CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C53503C51CB2049E001201CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C53503C61CB2049E001201CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C53503C91CB2049E001201CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C53503CB1CB2049E001201CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C53503CE1CB2049E001201CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C53503D01CB2049E001201CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C53503B91CB2049E001201CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C53503B31CB2049E001201CF = {
+			isa = PBXGroup;
+			children = (
+				C53503BE1CB2049E001201CF /* UIDatePicker的使用 */,
+				C53503BD1CB2049E001201CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C53503BD1CB2049E001201CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C53503BC1CB2049E001201CF /* UIDatePicker的使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C53503BE1CB2049E001201CF /* UIDatePicker的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				C53503C21CB2049E001201CF /* AppDelegate.h */,
+				C53503C31CB2049E001201CF /* AppDelegate.m */,
+				C53503C51CB2049E001201CF /* ViewController.h */,
+				C53503C61CB2049E001201CF /* ViewController.m */,
+				C53503C81CB2049E001201CF /* Main.storyboard */,
+				C53503CB1CB2049E001201CF /* Assets.xcassets */,
+				C53503CD1CB2049E001201CF /* LaunchScreen.storyboard */,
+				C53503D01CB2049E001201CF /* Info.plist */,
+				C53503BF1CB2049E001201CF /* Supporting Files */,
+			);
+			path = "UIDatePicker的使用";
+			sourceTree = "<group>";
+		};
+		C53503BF1CB2049E001201CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C53503C01CB2049E001201CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C53503BB1CB2049E001201CF /* UIDatePicker的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53503D31CB2049E001201CF /* Build configuration list for PBXNativeTarget "UIDatePicker的使用" */;
+			buildPhases = (
+				C53503B81CB2049E001201CF /* Sources */,
+				C53503B91CB2049E001201CF /* Frameworks */,
+				C53503BA1CB2049E001201CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIDatePicker的使用";
+			productName = "UIDatePicker的使用";
+			productReference = C53503BC1CB2049E001201CF /* UIDatePicker的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C53503B41CB2049E001201CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Jet;
+				TargetAttributes = {
+					C53503BB1CB2049E001201CF = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 54C983399L;
+					};
+				};
+			};
+			buildConfigurationList = C53503B71CB2049E001201CF /* Build configuration list for PBXProject "UIDatePicker的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C53503B31CB2049E001201CF;
+			productRefGroup = C53503BD1CB2049E001201CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C53503BB1CB2049E001201CF /* UIDatePicker的使用 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C53503BA1CB2049E001201CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53503CF1CB2049E001201CF /* LaunchScreen.storyboard in Resources */,
+				C53503CC1CB2049E001201CF /* Assets.xcassets in Resources */,
+				C53503CA1CB2049E001201CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C53503B81CB2049E001201CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53503C71CB2049E001201CF /* ViewController.m in Sources */,
+				C53503C41CB2049E001201CF /* AppDelegate.m in Sources */,
+				C53503C11CB2049E001201CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C53503C81CB2049E001201CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C53503C91CB2049E001201CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C53503CD1CB2049E001201CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C53503CE1CB2049E001201CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C53503D11CB2049E001201CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C53503D21CB2049E001201CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C53503D41CB2049E001201CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "UIDatePicker的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Jet.UIDatePicker---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C53503D51CB2049E001201CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "UIDatePicker的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Jet.UIDatePicker---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C53503B71CB2049E001201CF /* Build configuration list for PBXProject "UIDatePicker的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53503D11CB2049E001201CF /* Debug */,
+				C53503D21CB2049E001201CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53503D31CB2049E001201CF /* Build configuration list for PBXNativeTarget "UIDatePicker的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53503D41CB2049E001201CF /* Debug */,
+				C53503D51CB2049E001201CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C53503B41CB2049E001201CF /* Project object */;
+}
